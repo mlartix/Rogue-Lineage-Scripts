@@ -12,7 +12,7 @@ KeyBinds = {
     if getgenv().ESPTOGGLE1 then 
         getgenv().ESPTOGGLE1 = nil
     end
-    
+    getgenv().ESPTOGGLE1 = true
     local ToggleKey = Enum.KeyCode.Y
     local HideCommonToggleKey = Enum.KeyCode.U
     local Meshes = {
